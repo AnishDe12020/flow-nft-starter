@@ -1,11 +1,11 @@
 export const getTotalSupply =
-// REPLACE THIS WITH YOUR CONTRACT NAME + ADDRESS
-`
-import BottomShot from 0x7b6adb682517f137;
+  // REPLACE THIS WITH YOUR CONTRACT NAME + ADDRESS
+  `
+import CarMoji from 0xe5de429200719cee;
 
 pub fun main(): UInt64 {
 
-    return BottomShot.totalSupply;
+    return CarMoji.totalSupply;
 
 }
-`
+`;
